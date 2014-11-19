@@ -1,0 +1,48 @@
+body {
+  color: $color-text;
+  background-color: #F7F7F7;
+}
+
+input,
+button,
+textarea {
+  color: $color-text-medium;
+  background-color: #FFF;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  background-color: transparent;
+}
+
+label {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.8;
+  margin: .5em 0;
+  padding: .25em 0;
+}
+
+code,
+pre {
+  font-family: $font_family-monospace;
+}
+
+pre,
+pre code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre {
+  padding: .75em;
+  border: 1px solid $border_color;
+  @include border-radius(2px);
+  color: $color-text-medium;
+}
